@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-.gochi {
-  font-family: "Gochi Hand", 'cursive';
-  font-weight: 600;
-  font-style: normal;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  font-family: 'Mulish', sans-serif;
+
 }
+
+.section {
+  scroll-margin-top: 50px;
+}
+
+body {
+  background-color: #F7F5F9;
+}
+

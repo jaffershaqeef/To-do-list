@@ -87,12 +87,12 @@ function Navbar() {
                 >
                     <ul className="mt-8 w-full px-2">
                         <div className="flex items-center justify-between">
-                            <li className="p-4"><a href="#home" className="hover:text-[#f1f1f1]" aria-label="Home"><p>HOME</p></a></li>
+                            <li className="p-4"><a href="#home" onClick={toggleSidebar} className="hover:text-[#f1f1f1]" aria-label="Home"><p>HOME</p></a></li>
                             <button className="text-black pr-3" onClick={toggleSidebar}>X</button>
                         </div>
-                        <li className="p-4"><a href="#about" className="hover:text-[#f1f1f1]" aria-label="About Us"><p>ABOUT US</p></a></li>
-                        <li className="p-4"><a href="#services" className="hover:text-[#f1f1f1]" aria-label="Services"><p>SERVICES</p></a></li>
-                        <li className="p-4"><a href="#contact" className="hover:text-[#f1f1f1]" aria-label="Contact Us"><p>CONTACT US</p></a></li>
+                        <li className="p-4"><a href="#about" onClick={toggleSidebar} className="hover:text-[#f1f1f1]" aria-label="About Us"><p>ABOUT US</p></a></li>
+                        <li className="p-4"><a href="#services" onClick={toggleSidebar} className="hover:text-[#f1f1f1]" aria-label="Services"><p>SERVICES</p></a></li>
+                        <li className="p-4"><a href="#contact" onClick={toggleSidebar} className="hover:text-[#f1f1f1]" aria-label="Contact Us"><p>CONTACT US</p></a></li>
                     </ul>
                 </div>
 
