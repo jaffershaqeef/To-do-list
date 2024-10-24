@@ -34,7 +34,7 @@ function Footer() {
   ];
 
   return (
-    <div className='bg-[#462863] h-[60vh] md:h-[70vh] xl:h-[70vh] -mt-56 lg:-mt-48 flex flex-col justify-center items-center md:px-14'>
+    <div className='bg-[#462863] h-[80vh] md:h-[70vh] xl:h-[70vh] -mt-56 lg:-mt-48 flex flex-col justify-center items-center md:px-14'>
       <div className='lg:mt-40 md:mt-32 mt-40 w-full flex items-center justify-center text-[14px] lg:text-[18px] '>
 
         {/* navbar content */}
