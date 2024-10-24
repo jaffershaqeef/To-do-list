@@ -27,7 +27,7 @@ function Contact() {
     <>
       <div id='contact' className="z-20 relative mt-10 lg:mt-20">
         {/* desktop and mobile-view background image */}
-        <img src="images/footer.png" alt="" className="w-full h-[200vh] md:h-[120vh] lg:h-full" />
+        <img src="images/footer.png" alt="" className="w-full h-[170vh] md:h-[120vh] lg:h-full" />
 
         <div className="absolute inset-0 flex flex-col items-center justify-start  text-white mt-5 lg:mt-10 lg:p-4">
           <h1 className="text-center xl:text-[24px] lg:text-[18px] text-[14px] ">A Passion for Discovery</h1>
